@@ -11,8 +11,8 @@ Je recherche
     <option value="">-Veuillez choisir une option-</option>
     <option value="CDI">CDI</option>
     <option value="CDD">CDD</option>
-    <option value="Stage">Stage</option>
-    <option value="Alternance">Alternance</option>
+    <option value="stage">Stage</option>
+    <option value="alternance">Alternance</option>
 </select>
 <br><br>
 Dans le domaine
