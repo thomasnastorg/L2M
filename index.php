@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
+    <link rel="stylesheet" href="../assets/css/main.css"/>
 </head>
 <body>
 
@@ -40,10 +41,10 @@ plus de 525 000 licenciés et près de 50 000 bénévoles.
           <div class="carousel-item" data-interval="1000">
             <img src="Baseball.png" alt="Carrousel slide 3" class="d-block w-100">
           </div>
-          <div class="carousel-item active" data-interval="4000">
+          <div class="carousel-item active" data-interval="1000">
             <img src="Tennis.png" alt="Carrousel slide 4" class="d-block w-100">
           </div>
-          <div class="carousel-item active" data-interval="4000">
+          <div class="carousel-item active" data-interval="2000">
             <img src="Volleyball.png" alt="Carrousel slide 5" class="d-block w-100">
           </div>
           <div class="carousel-item active" data-interval="4000">
@@ -64,6 +65,36 @@ plus de 525 000 licenciés et près de 50 000 bénévoles.
         </a>
       </div>
     </div>
+
+<br>
+<hr>
+
+<div class="jumbotron">
+    <div class="h1">
+      Inscription : 
+      <div><input type="text" name="email_newsletter" placeholder="identifiant@vous.fr" required class="form-control" style="width: 70%; text-align: center; margin: auto; display: block;"></div>
+     <center><br> <button type="submit" class="btn btn-primary btn-sm btn-block" 
+      title="S'inscrire" name="btn_newsletter">S'inscrire</button></center>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- BAS DE PAGE  -->
+
+<!-- <h1 class="testopoivre"> -->
+
+Vous en voulez plus ? Suivez nous ! →                       <div   style="width: 30%; text-align: center; margin: auto; "    F twitwi g+ in insta >
+
+
+
+</div>
 
 
 </body>
