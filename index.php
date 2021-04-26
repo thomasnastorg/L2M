@@ -29,18 +29,26 @@ plus de 525 000 licenciés et près de 50 000 bénévoles.
           <li data-target="#demo" data-slide-to="2"></li>
         </ul>
 
-        <!-- Carrousel -->
-        <div class="carousel-inner">
+      <!-- Carrousel -->
+      <div class="carousel-inner">
           <div class="carousel-item active" data-interval="4000">
-            <img src="Foot.png" alt="Carrousel slide 1" class="d-block w-100">
+            <img src="football.png" alt="Carrousel slide 1" class="d-block w-100">
           </div>
           <div class="carousel-item" data-interval="2000">
-            <img src="" alt="Carrousel slide 2" class="d-block w-100">
+            <img src="Natation.png" alt="Carrousel slide 2" class="d-block w-100">
           </div>
           <div class="carousel-item" data-interval="1000">
-            <img src="" alt="Carrousel slide 3" class="d-block w-100">
+            <img src="Baseball.png" alt="Carrousel slide 3" class="d-block w-100">
           </div>
-          
+          <div class="carousel-item active" data-interval="4000">
+            <img src="Tennis.png" alt="Carrousel slide 4" class="d-block w-100">
+          </div>
+          <div class="carousel-item active" data-interval="4000">
+            <img src="Volleyball.png" alt="Carrousel slide 5" class="d-block w-100">
+          </div>
+          <div class="carousel-item active" data-interval="4000">
+            <img src="rugby.png" alt="Carrousel slide 6" class="d-block w-100">
+          </div>
         </div>
         
         <!-- Contrôles -->
