@@ -2,4 +2,4 @@
 $user = "MDL";
 $mdp = "LNfqq93fT";
 
-$dbh = new PDO("mysql:host=tnastorg.ovh:8002;dbname=MDeuxL",$user,$mdp);
+$dbh = new PDO("mysql:host=tnastorg.ovh;dbname=MDeuxL",$user,$mdp);

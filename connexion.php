@@ -1,5 +1,5 @@
 <?php
-include 'db_connect'; 
+include 'db_connect.php';
 session_start();
 $_SESSION["is_loged"]="false";
 $_SESSION["log_nom"]="";
