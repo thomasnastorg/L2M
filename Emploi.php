@@ -67,6 +67,6 @@ $Type=$_POST["Type"];
 $Temps=$_POST["Temps"];
 $Domaine=$_POST["Domaine"];
 $Lieu=$_POST["Lieu"];
-echo "Vous rechercher un(e) $Type d'une durée $Temps dans le domaine $Domaine en $Lieu";
+echo "Vous rechercher un(e) $Type d'une durée $Temps dans le domaine $Domaine en $Lieu.";
 
 ?>
