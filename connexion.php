@@ -1,7 +1,7 @@
 <?php
+session_start();
 include 'db_connect.php';
 include 'header.php';
-session_start();
 $_SESSION["is_loged"]="false";
 $_SESSION["log_nom"]="";
 $_SESSION["log_prenom"]="";
