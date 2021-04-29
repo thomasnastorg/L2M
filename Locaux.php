@@ -24,8 +24,6 @@ En fonction de leur taille, les 24 structures hébergées occupent un ou plusieu
 
 
 <p>
-
-
 Notes :
 les salles Majorelle, Grüber, Lamour, Longwy, Daum, Gallé, Corbin et Baccarat sont des salles de réunion disponibles à la réservation. La salle multimédia est une salle dédiée aux stages de formation à inscription libre proposés par le CROSL ou pour les stages organisés par les ligues. L'amphithéâtre est réservable pour les assemblées générales ou pour d'autres réunions importantes. La salle de convivialité, et son office attenant, est également disponible à la réservation, souvent pour les repas "traiteur" qui suivent les réunions. Toutes ces salles sont accessibles en soirée : un système de "digicode" permet d'entrer dans les locaux en dehors des heures d'ouverture des bureaux. Différents services peuvent être demandés en parallèle à la réservation : aménagement particulier, fourniture d’eau, de café etc. Ces services sont pour la plupart payants.
 La salle de reprographie est un espace commun aux ligues et à l'administration de la M2L.

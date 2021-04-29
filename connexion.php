@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 include 'db_connect.php';
 include 'header.php';
 $_SESSION["is_loged"]="false";
@@ -10,31 +10,32 @@ $_SESSION["log_prenom"]="";
         $login = $_POST["login"];
         $mdp = $_POST["mdp"];
 
-        $req= "select count(*) as nbr, usr_nom, usr_prenom from connexion where usr_login='$login' and usr_pass='$mdp'";
-        $res = $dbh -> query($req);
-        $data = $res -> fetch(PDO::FETCH_ASSOC);
+        $req= $dbh -> prepare("select * from connexion where usr_login='$login'");
+        $res -> execute(['username' => $_POST['username']]);
+        $userL = $res -> fetch();
 
-    if ($data["nbr"]==1){
-        $_SESSION["is_loged"]="true";
-        $_SESSION["log_nom"]=$data["usr_nom"];
-        $_SESSION["log_prenom"]=$data["usr_prenom"];
-        echo "connexion réussie..."; 
-        header("Location: index.php");
-        exit;
+        if( password_verify($_POST['mdp'], $userL->usr_pass) ){
+          session_start();
+          $_SESSION["auth"]= $userL;
+          echo "connexion réussie..."; 
+          header("Location: index.php");
+          exit;
+        }
+
 
     }
-    }
-    if (isset ($_POST["save"])) {
+    if (isset($_POST["save"])) {
 
             $usr_nom= isset ($_POST["usr_nom"]) ? $_POST["usr_nom"]:"";
             $usr_prenom= isset ($_POST["usr_prenom"]) ? $_POST["usr_prenom"]:"";
             $usr_login= isset ($_POST["usr_login"]) ? $_POST["usr_login"]:"";
-            $usr_pass= isset ($_POST["usr_pass"]) ? $_POST["usr_pass"]:"";
+            //$usr_pass= isset ($_POST["usr_pass"]) ? $_POST["usr_pass"]:"";
             $usr_email= isset ($_POST["usr_email"]) ? $_POST["usr_email"]:"";
             $usr_dep= isset ($_POST["usr_dep"]) ? $_POST["usr_dep"]:"";
             $usr_ville= isset ($_POST["usr_ville"]) ? $_POST["usr_ville"]:"";
             $usr_tel= isset ($_POST["usr_tel"]) ? $_POST["usr_tel"]:"";
             
+            $usr_pass= password_hash($_POST['usr_pass'], PASSWORD_BCRYPT);
 
             $req1 = "insert into utilisateur (usr_nom, usr_prenom, usr_email, usr_login, usr_pass,
             usr_dep, usr_ville, usr_tel) values ('$usr_nom', '$usr_prenom','$usr_email', '$usr_login', '$usr_pass', '$usr_dep',
