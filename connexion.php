@@ -29,13 +29,13 @@ $_SESSION["log_prenom"]="";
             $usr_nom= isset ($_POST["usr_nom"]) ? $_POST["usr_nom"]:"";
             $usr_prenom= isset ($_POST["usr_prenom"]) ? $_POST["usr_prenom"]:"";
             $usr_login= isset ($_POST["usr_login"]) ? $_POST["usr_login"]:"";
-            //$usr_pass= isset ($_POST["usr_pass"]) ? $_POST["usr_pass"]:"";
+            $usr_pass= password_hash($_POST['usr_pass'], PASSWORD_BCRYPT);
             $usr_email= isset ($_POST["usr_email"]) ? $_POST["usr_email"]:"";
             $usr_dep= isset ($_POST["usr_dep"]) ? $_POST["usr_dep"]:"";
             $usr_ville= isset ($_POST["usr_ville"]) ? $_POST["usr_ville"]:"";
             $usr_tel= isset ($_POST["usr_tel"]) ? $_POST["usr_tel"]:"";
             
-            $usr_pass= password_hash($_POST['usr_pass'], PASSWORD_BCRYPT);
+            
 
             $req1 = "insert into utilisateur (usr_nom, usr_prenom, usr_email, usr_login, usr_pass,
             usr_dep, usr_ville, usr_tel) values ('$usr_nom', '$usr_prenom','$usr_email', '$usr_login', '$usr_pass', '$usr_dep',
