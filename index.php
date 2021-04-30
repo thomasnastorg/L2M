@@ -1,3 +1,6 @@
+<?php
+include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,20 +71,6 @@ plus de 525 000 licenciés et près de 50 000 bénévoles.
 
 <br>
 <hr>
-
-<div class="jumbotron">
-    <div class="h1">
-      Inscription : 
-      <div><input type="text" name="email_newsletter" placeholder="identifiant@vous.fr" required class="form-control" style="width: 70%; text-align: center; margin: auto; display: block;"></div>
-     <center><br> <button type="submit" class="btn btn-primary btn-sm btn-block" 
-      title="S'inscrire" name="btn_newsletter">S'inscrire</button></center>
-</div>
-</div>
-
-
-
-
-
 
 
 
