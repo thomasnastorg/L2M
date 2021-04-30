@@ -45,13 +45,13 @@ Dans le domaine
 
 <?php
 $Rech=$_POST["Rech"];
-$Type=$_POST["Type"];
-$Temps=$_POST["Temps"];
-$Domaine=$_POST["Domaine"];
-$mot=$_POST["mot-cle"];
 if($Rech =="2") {
+    $Type=$_POST["Type"];
+    $Temps=$_POST["Temps"];
+    $Domaine=$_POST["Domaine"];
     echo "Vous recherchez : $mot.";
-}else{
+}else if($Rech == "1"){
+    $mot=$_POST["mot-cle"];
     echo "Vous recherchez un(e) $Type d'une durée $Temps dans le domaine $Domaine.";
 }
 
