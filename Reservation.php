@@ -5,13 +5,13 @@
 	<link rel="icon" type="image/png" href="public/img/logo_ligue.png"/>
 	<title href="http://m2l.nathandfk.fr?m2l=index">M2L</title>
 	<meta name="description" content="Site de la M2L.">
-	<meta name="author" content="Nathan DFK">
+	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie-edge">
 	<link rel="stylesheet" href="public/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+	
 
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -24,39 +24,13 @@
 		});
 	</script>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="public/css/filecss.css">
-	<script type="text/javascript" src="public/js/filejs.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<script src="public/js/bootstrap.bundle.min.js" charset="utf-8"></script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/javascript" href="public/js/script.js">
-
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css">
-	<link rel="stylesheet" type="text/css" href="https://codepen.io/fancyapps/pen/Kxdwjj">
+		
 </head>
 <body>
 
-																						<a href="http://m2l.nathandfk.fr?m2l=connect" class="btn btn-dark btn-sm" style="color: white;">
-											Connexion
-										</a>
-																
-						<a href="http://m2l.nathandfk.fr?m2l=index" style="font-size: 22px; color: white; color: white; text-decoration: none; padding: 1.3% 0% 1.3% 0%; margin: 0% 1.5% 0% 1.5%; font-weight: bold;" 
-												class="Ilog topline ligueHover"><strong><i class="fas fa-home"></i></strong></a>
-
-												<a href="javascript:void(0);" class="icon topline ligueHover" style="color: white; text-decoration: none; padding: 1.3% 0% 1.3% 0%; margin: 0% 1.5% 0% 1.5%; font-weight: bold;" onclick="myFunction()" id="openicon">
-													<i class="fa fa-bars" style="font-size: 24px;"></i>
-												</a>
-</div>
 
 </div>
-</nav><!-- <ul> -->
-<!-- <li style="display: inline;"><input type="text" name="" class="form-control w-50" placeholder="Nom"></li>
-<li style="display: inline;"><input type="text" name="" class="form-control w-50" placeholder="Prénom"></li>
-</ul> -->
-<!-- <input type="email" name="" class="form-control" placeholder="identifiant@nomdedomaine.fr">
-<input type="text" name="number" class="form-control" placeholder="06 XX XX XX XX"> -->
+</nav>
 
 
 
@@ -100,7 +74,7 @@
 
 
 
-
+<center>
 
 <div id="info_reservation" style="margin-bottom: 5%;">
 
@@ -108,45 +82,56 @@
 
 <div class="container-fluid">
 
-<div class="text-center">
-<h3>Veuillez-vous connecter pour pouvoir réserver une salle</h3>
-</div>
-<div class="saform col-sm-9 col-md-12 col-12 col-xs-12 col-lg-6">
-<div class="text-center">
-<h3>Connexion</h3>
-</div>
+<!-- Card de connexion -->
+
 <form method="POST">
-<div class="form-row">
-	<div class="form-group col-sm-6">
-	<label for="email">Email</label>
-	<input type="email" class="form-control" placeholder="identifiant@nomdedomaine.fr" name="email_connect" require="require">
-	</div>
-	<div class="form-group col-sm-6">
-	<label for="password">Mot de passe</label>
-	<input type="password" class="form-control" placeholder="********" name="mdp_connect" require="require">
-	</div>
-	<input type="submit" class="btn btn-info btn-block" value="Connexion" title="connexion" name="btn_connectR">
-	
-</div>
-</form>
-<div>
-	<a href="http://m2l.nathandfk.fr?m2l=mdpOublie">Mot de passe oublié</a>
-	</div><hr>
+        <div class="col-nd">
+            <div class="container-fluid" style="padding: 5%;">
+                    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-6 col-12" style="margin-bottom: 10%; box-shadow: 0px 5px 18px grey; border-radius: 10px;">
+                    <div class="text-center">
+                        <h3>CONNEXION</h3> 
+                    </div>
+                            <div style="padding-top: 2%; padding-bottom: 2%;">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" name="email_connect" 
+                                placeholder="identifiant@nomdedomaine.fr" required>
+                                
+                            </div>
+                            <div style="padding-top: 2%; padding-bottom: 2%;">
+                                <label for="mdp">Mot de passe</label>
+                                <input type="password" class="form-control" name="mdp_connect" id="ok" 
+                                placeholder="********" required>
+                            
+                            </div>						
+                            <div style="padding-top: 2%; padding-bottom: 2%;">
+                                <input type="submit" class="btn btn-info btn-block" name="btn_cn" value="Connexion">
+                            
+                            </div>
+                                <div>
+                                    <a href="http://m2l.nathandfk.fr?m2l=reinit" class="text-center">
+                                    Mot de passe oublié ?
+                                    </a>
+                                </div><hr>
                                 <div class="text-center">
                                 <h4 class="text-muted">Nouveau sur cette plateforme ?</h4>
                                     <a href="http://m2l.nathandfk.fr?m2l=register" class="text-center btn btn-light">
                                     Créer votre compte
                                     </a>
                                 </div>
-</div>
-
-
-</div>
-
-
-
+                    </div>
+            </div>
+        </div>
+    </form>
 
 </div>
+
+
+
+
+</div>
+
+</center>
+
 
 <div id="reservation" class="container">
 	
@@ -171,69 +156,6 @@
 </div>
 
 
-
-
-
-
-<!--Info rapide 099A-->
-<div class="container">
-<div class="modal fade" id="Modal099A" role="dialog">
-
-<div class="modal-dialog modal-lg">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<h3 class="modal-title">INFORMATION</h3> 
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-</div>
-<arise>
-
-<div class="modal-body">
-<p>Vous ne pouvez pas réserver.</p>
-<p>La date sélectionnée n'est plus valable.</p>
-</div>
-
-
-</arise>
-
-<div class="modal-footer">
-<a href="https://fr.wikipedia.org/wiki/Mod%C3%A9lisme_a%C3%A9rien"> En Savoir Plus</a>      
-
-</div>  
-
-</div>
-</div>
-</div>
-</div>
-
-
-<!--Info rapide 099B-->
-<div class="container">
-<div class="modal fade" id="Modal099B" role="dialog">
-
-<div class="modal-dialog modal-lg">
-<!-- Modal content-->
-<div class="modal-content">
-<div class="modal-header">
-<h3 class="modal-title">INFORMATION</h3> 
-<button type="button" class="close" data-dismiss="modal">&times;</button>
-</div>
-<arise>
-
-<div class="modal-body">
-<p>Vous pouvez réserver. Cette date est encore valide</p>
-<p>Pour réserver veuillez cliquer sur cette icon 
-				<img src="public/img/0.png" alt="Action" style="width:18px;"  /></p>
-</div>
-
-
-</arise>
-
-
-</div>
-</div>
-</div>
-</div>
 
 Menu pour switch 
 
@@ -267,7 +189,6 @@ function myFunction() {
   }
 }
 </script>
-
 
 
 
