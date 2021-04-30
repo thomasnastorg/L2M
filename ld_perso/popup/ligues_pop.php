@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_ligue.css">
-    <script defer src="script_ligue.js"></script>
+    <link rel="stylesheet" href="style_ligue_pop.css">
+    <script defer src="script_ligue_pop.js"></script>
     <title>Document</title>
 </head>
 <body>
