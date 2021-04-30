@@ -1,27 +1,19 @@
-/* .grid_ligue{
-
-
-}
-
-.ligue{
-    color: hsl(180, 49%, 28%);
-
-
-}
-
-.image_ligue{
-    width: 200px;
-
-} */
-
 *, *::after, *::before{
     box-sizing: border-box;
 }
 
+.basic-grid{
+    display: grid;
+    gap: 1rem;
+
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+}
+
 .modal{
-    position:fixed;
-    top:50%;
-    left:50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%,-50%) scale(0);
     transition: 200ms ease-in-out;
     border: 1px solid black;
@@ -34,9 +26,9 @@
 
 .modal.active{
     transform: translate(-50%,-50%) scale(1);
-} 
+}
 
-.modal-title{
+.modal-header{
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
@@ -45,11 +37,11 @@
 }
 
 .modal-header .title{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
-.modal-header .close_button{
+.modal-header .close-button{
     cursor: pointer;
     border: none;
     outline: none;
@@ -67,9 +59,9 @@
     opacity: 0;
     transition: 200ms ease-in-out;
     top: 0;
+    bottom: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     background-color: rgba(0,0,0,0.5);
     pointer-events: none;
 }
@@ -78,3 +70,5 @@
     opacity: 1;
     pointer-events: all;
 }
+
+
