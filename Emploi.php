@@ -2,8 +2,8 @@
 
 <center><h1>Rechercher une offre</h1></center>
 
-<center><form action="Emploi.php" method="POST">
-<input type="radio" name="Rech" id="Categ">Recherche par catégorie</input>
+<center><form action="#" method="POST">
+<input type="radio" name="Rech" id="Categ" value="1">Recherche par catégorie</input>
 <br><br>
 Je recherche
 <br><br>
@@ -34,27 +34,51 @@ Dans le domaine
     <option value="managérial">Managérial</option>
     <option value="autre">Autre</option>
 </select>
-<br><br>
-En
-<br><br>
-<select name="Lieu" id="Lieu">
-    <option value="Lorraine">-Veuillez choisir une option-</option>
-    <option value="Lorraine">Lorraine</option>
-</select>
 <br><br><br><br>
-<input type="radio" name="Rech" id="cle">Recherche par nom ou référence</input>
+<input type="radio" name="Rech" id="cle" value="2">Recherche par nom ou référence</input>
 <br><br>
-<input type="text" placeholder="Entrez un mot clé" name="mo-cle" id="mot-cle">
+<input type="text" placeholder="Entrez un mot clé" name="mot-cle" id="mot-cle">
 <br><br><br><br>
 <input type="submit" value="Rechercher">
 </form></center>
 </body>
 
 <?php
+$Rech=$_POST["Rech"];
 $Type=$_POST["Type"];
 $Temps=$_POST["Temps"];
 $Domaine=$_POST["Domaine"];
-$Lieu=$_POST["Lieu"];
-echo "Vous rechercher un(e) $Type d'une durée $Temps dans le domaine $Domaine en $Lieu.";
+$mot=$_POST["mot-cle"];
+if($Rech =="2") {
+    echo "Vous recherchez : $mot.";
+}else{
+    echo "Vous recherchez un(e) $Type d'une durée $Temps dans le domaine $Domaine.";
+}
+
+echo"<table border=\" 1 \">
+    <thead>
+        <tr>
+            <th colspan=\"2\">Développeur web PHP (H/F)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><center>Ville<center></td>
+            <td><center>Ambacourt<center></td>
+        </tr>
+        <tr>
+            <td><center>Département<center></td>
+            <td><center>Vosges(88)<center></td>
+        </tr>
+        <tr>
+            <td><center>Entreprise<center></td>
+            <td><center>Via Mobilis<center></td>
+        </tr>
+        <tr>
+            <td colspan=\"2\"><center><a href=\"https://fr.indeed.com/emplois?q=Commercial%20Sport&l=Lorraine&vjk=2fc5378d40e81df5\">Postuler</a></center></td>
+        </tr>
+    </tbody>
+</table>";
+
 
 ?>
