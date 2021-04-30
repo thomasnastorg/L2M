@@ -37,7 +37,7 @@ Dans le domaine
 <br><br><br><br>
 <input type="radio" name="Rech" id="cle" value="2">Recherche par nom ou référence</input>
 <br><br>
-<input type="text" placeholder="Entrez un mot clé" name="mot-cle" id="mot-cle">
+<input type="text" placeholder="Entrez un mot clé" name="mot" id="mot">
 <br><br><br><br>
 <input type="submit" value="Rechercher">
 </form></center>
@@ -45,14 +45,16 @@ Dans le domaine
 
 <?php
 $Rech=$_POST["Rech"];
+if(isset($Rech)){
 if($Rech =="2") {
+    $mot=$_POST["mot"];
+    echo "Vous recherchez : $mot.";
+}else if($Rech == "1"){
     $Type=$_POST["Type"];
     $Temps=$_POST["Temps"];
     $Domaine=$_POST["Domaine"];
-    echo "Vous recherchez : $mot.";
-}else if($Rech == "1"){
-    $mot=$_POST["mot-cle"];
     echo "Vous recherchez un(e) $Type d'une durée $Temps dans le domaine $Domaine.";
+}
 }
 
 echo"<table border=\" 1 \">
