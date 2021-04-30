@@ -15,7 +15,7 @@
 	<div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px;">
             <ul>
                 <li>
-                    <a href="../index.php">
+                    <a href="./index.php">
                         <i class="fa fa-home fa-2x" style="color: #d52349"></i>
                         <span class="nav-text">
                             Accueil
@@ -25,7 +25,7 @@
                 </li>
              
                 <li class="has-subnav">
-                    <a href="../Emploi.php">
+                    <a href="./Emploi.php">
                        <i class="fa fa-briefcase fa-2x" style="color: #d52349"></i>
                         <span class="nav-text">
                             Emploi
@@ -34,7 +34,7 @@
                     
                 </li>
                 <li class="has-subnav">
-                    <a href="../Reservation.php">
+                    <a href="./Reservation.php">
                        <i class="fa fa-table fa-2x" style="color: #d52349"></i>
                         <span class="nav-text">
                             Réservation
@@ -43,7 +43,7 @@
                    
                 </li>
                 <li>
-                    <a href="../Contact.php">
+                    <a href="./Contact.php">
                         <i class="fa fa-envelope fa-2x" style="color: #d52349"></i>
                         <span class="nav-text">
                             Contact
@@ -52,7 +52,7 @@
                 </li>
 
 				<li class="has-subnav">
-                    <a href="../M2L.php">
+                    <a href="./M2L.php">
                         <i class="fa fa-trophy fa-2x" style="color: #d52349"></i>
                         <span class="nav-text">
                             M2L
@@ -62,7 +62,7 @@
                 </li>
 
 						<li class="has-subnav">
-							<a href="../statutJuridique.php">
+							<a href="./statutJuridique.php">
 								<i class="fa fa-2x"></i>
 								<span class="nav-text">
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Statut Juridique
@@ -71,7 +71,7 @@
 							
 						</li>
 						<li class="has-subnav">
-							<a href="../Locaux.php">
+							<a href="./Locaux.php">
 								<i class="fa fa-2x"></i>
 								<span class="nav-text">
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Locaux
@@ -80,7 +80,7 @@
 							
 						</li>
 						<li class="has-subnav">
-							<a href="../Personnels.php">
+							<a href="./Personnels.php">
 								<i class="fa fa-2x"></i>
 								<span class="nav-text">
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Personnel
@@ -89,7 +89,7 @@
 							
 						</li>
 						<li class="has-subnav">
-							<a href="../Matériel.php">
+							<a href="./Matériel.php">
 								<i class="fa fa-2x"></i>
 								<span class="nav-text">
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Matériel
@@ -98,7 +98,7 @@
 							
 						</li>
 						<li class="has-subnav">
-							<a href="../Services.php">
+							<a href="./Services.php">
 								<i class="fa fa-2x"></i>
 								<span class="nav-text">
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Services
@@ -110,7 +110,7 @@
 
             <ul class="logout">
 				<li>
-                    <a href="../connexion.php">
+                    <a href="./connexion.php">
                         <i class="fa fa-user fa-2x" style="color: #d52349"></i>
                         <span class="nav-text">
                             <button style="background-color : rgb(255, 255, 255); color: black !important;">Connexion</button>
