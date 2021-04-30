@@ -119,7 +119,7 @@
                   
                 </li>
                 <li>
-                   <a href="#">
+                   <a href="./deconnexion.php">
                          <i class="fa fa-power-off fa-2x" style="color: #d52349"></i>
                         <span class="nav-text">
                             Logout
