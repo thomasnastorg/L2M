@@ -34,7 +34,7 @@
 
 .modal.active{
     transform: translate(-50%,-50%) scale(1);
-} */
+} 
 
 .modal-title{
     padding: 10px 15px;
@@ -44,7 +44,7 @@
     border-bottom: 1px solid black;
 }
 
-/* .modal-header .title{
+.modal-header .title{
     font-size: 1.25em;
     font-weight: bold;
 }
@@ -56,7 +56,7 @@
     background: none;
     font-size: 1.25rem;
     font-weight: bold;
-} */
+}
 
 .modal-body{
     padding: 10px 15px;
