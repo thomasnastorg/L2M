@@ -1,29 +1,31 @@
 <?php
 
-include 'db_connect.php';
+include_once 'db_connect.php';
+
+if (isset ($_POST["connexion"])){
+       
+
+  $res= $dbh -> prepare("select * from utilisateur where usr_login= :usr_login ");
+  $res -> execute(['usr_login' => $_POST['usr_login']]);
+  $userL = $res -> fetch();
+
+
+  if( password_verify($_POST['usr_pass'], $userL->usr_pass) ){
+   session_start();
+    $_SESSION["auth"]= $userL;
+    header("Location: index.php");
+    exit;
+  }else{
+    echo"conection imposible";
+  }
+  
+
+}
+
 include 'header.php';
-$_SESSION["is_loged"]="false";
-$_SESSION["log_nom"]="";
-$_SESSION["log_prenom"]="";
-
-    if (isset ($_POST["connexion"])){
-        $login = $_POST["login"];
-        $mdp = $_POST["mdp"];
-
-        $req= $dbh -> prepare("select * from connexion where usr_login='$login'");
-        $res -> execute(['username' => $_POST['username']]);
-        $userL = $res -> fetch();
-
-        if( password_verify($_POST['mdp'], $userL->usr_pass) ){
-          session_start();
-          $_SESSION["auth"]= $userL;
-          echo "connexion réussie..."; 
-          header("Location: index.php");
-          exit;
-        }
 
 
-    }
+  
     if (isset($_POST["save"])) {
 
             $usr_nom= isset ($_POST["usr_nom"]) ? $_POST["usr_nom"]:"";
@@ -44,6 +46,7 @@ $_SESSION["log_prenom"]="";
 
 }
 ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -55,17 +58,17 @@ $_SESSION["log_prenom"]="";
   </head>
   <body>
   <h1><center>Page de connexion</h1><hr><br>  
-  <form action="index.php" method="POST"class="form-horizontal">
+  <form action="./connexion.php" method="POST" class="form-horizontal">
   <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Login:</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" name ="login" placeholder="votre login">
+      <input type="text" class="form-control" name ="usr_login" placeholder="votre login">
     </div>
   </div>
   <div class="form-group">
     <label for="inputPassword3" class="col-sm-2 control-label">Password:</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" name="mdp" placeholder="votre mot de passe">
+      <input type="password" class="form-control" name="usr_pass" placeholder="votre mot de passe">
     </div>
   </div>
   <div class="form-group">
