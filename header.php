@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Ma première page</title>
@@ -12,8 +12,16 @@
     <script src="js/bootstrap.min.js"></script>
 	
 	<link  rel="bs337/stylesheet" type="text/css" href="my_style.css" >
-	<div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px;">
-            <ul>
+	<div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px;top: 500px; ">
+	</head>   
+	<body>
+		
+	<?php   
+	/*if (session_status() == PHP_SESSION_NONE) {
+		session_start();
+	}*/
+	?>
+	<ul>
                 <li>
                     <a href="./index.php">
                         <i class="fa fa-home fa-2x" style="color: #d52349"></i>
@@ -109,23 +117,13 @@
             </ul>
 
             <ul class="logout">
-				<li>
-                    <a href="./connexion.php">
-                        <i class="fa fa-user fa-2x" style="color: #d52349"></i>
-                        <span class="nav-text">
-                            <button style="background-color : rgb(255, 255, 255); color: black !important;">Connexion</button>
-                        </span>
-                    </a>
-                  
-                </li>
-                <li>
-                   <a href="./deconnexion.php">
-                         <i class="fa fa-power-off fa-2x" style="color: #d52349"></i>
-                        <span class="nav-text">
-                            Logout
-                        </span>
-                    </a>
-                </li>  
+			<?php if (($_SESSION['auth'])): ?>
+					<li> <a href="./deconnexion.php">deconnexion</a>
+			<?php else: ?>	
+				<li> <a href="./connexion.php">s'inscrire</a>  
+				<li> <a href="./connexion.php">connexion</a>
+			<?php endif; ?>	
+			<li> <a href="./deconnexion.php">deconnexion</a>
             </ul>
         </nav>
-</head>
+		</body> 
