@@ -12,7 +12,7 @@
     <script src="js/bootstrap.min.js"></script>
 	
 	<link  rel="bs337/stylesheet" type="text/css" href="my_style.css" >
-	<div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px;top: 500px; ">
+	<div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px; ">
 	</head>   
 	<body>
 		
