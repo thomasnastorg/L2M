@@ -110,14 +110,10 @@ include 'header.php';
                                 <input type="submit" class="btn btn-info btn-block" name="btn_cn" value="Connexion">
                             
                             </div>
-                                <div>
-                                    <a href="http://m2l.nathandfk.fr?m2l=reinit" class="text-center">
-                                    Mot de passe oublié ?
-                                    </a>
-                                </div><hr>
+                                <hr>
                                 <div class="text-center">
                                 <h4 class="text-muted">Nouveau sur cette plateforme ?</h4>
-                                    <a href="http://m2l.nathandfk.fr?m2l=register" class="text-center btn btn-light">
+                                    <a href="inscription.php" class="text-center btn btn-light">
                                     Créer votre compte
                                     </a>
                                 </div>
@@ -158,9 +154,6 @@ include 'header.php';
 </div>
 </div>
 
-
-
-Menu pour switch 
 
 <script type="text/javascript">
 	document.getElementById("info_reservation").style.display = "block";
