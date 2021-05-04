@@ -1,5 +1,6 @@
 <?php
 include 'header.php';
+include 'db_connect.php';
 ?>
 <body>
 
@@ -85,5 +86,7 @@ echo"<table border=\" 1 \">
     </tbody>
 </table>";
 
+$req="SELECT * FROM emploi";
+print(mysql_query($req));
 
 ?>
