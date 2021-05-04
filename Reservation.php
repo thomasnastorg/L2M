@@ -6,11 +6,12 @@ include 'header.php';
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf8">
 	<link rel="icon" type="image/png" href="public/img/logo_ligue.png"/>
-	<title href="http://m2l.nathandfk.fr?m2l=index">M2L</title>
+	<title href="M2L.php">M2L</title>
 	<meta name="description" content="Site de la M2L.">
 	
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
 <!-- Commenté par Marie car le fontawesome utilisé pr le menu est différente de celle ci -->
+<!-- Commenté par dololo on supprime du coup ???? ↑↑↑↑↑↑ -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie-edge">
 	<link rel="stylesheet" href="public/css/bootstrap.min.css">
