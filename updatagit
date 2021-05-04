@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /home/centos/webl2m/www
+git pull
+
