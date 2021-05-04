@@ -1,11 +1,62 @@
 <?php
 include 'header.php';
-?>
+include_once 'db_connect.php';
+
+
+
+
+if (isset ($_POST["connexion"])){
+       
+
+       $res= $dbh -> prepare("select * from utilisateur where usr_login= :usr_login ");
+       $res -> execute(['usr_login' => $_POST['usr_login']]);
+       $userL = $res -> fetch();
+     
+     
+       if( password_verify($_POST['usr_pass'], $userL->usr_pass) ){
+        session_start();
+         $_SESSION["auth"]= $userL;
+         header("Location: index.php");
+         exit;
+       }else{
+         echo"conection imposible";
+       }
+       
+     
+     }
+     
+     include 'header.php';
+     
+     
+       
+         if (isset($_POST["save"])) {
+     
+                 $usr_nom= isset ($_POST["usr_nom"]) ? $_POST["usr_nom"]:"";
+                 $usr_prenom= isset ($_POST["usr_prenom"]) ? $_POST["usr_prenom"]:"";
+                 $usr_login= isset ($_POST["usr_login"]) ? $_POST["usr_login"]:"";
+                 $usr_pass= password_hash($_POST['usr_pass'], PASSWORD_BCRYPT);
+                 $usr_email= isset ($_POST["usr_email"]) ? $_POST["usr_email"]:"";
+                 $usr_dep= isset ($_POST["usr_dep"]) ? $_POST["usr_dep"]:"";
+                 $usr_ville= isset ($_POST["usr_ville"]) ? $_POST["usr_ville"]:"";
+                 $usr_tel= isset ($_POST["usr_tel"]) ? $_POST["usr_tel"]:"";
+                 
+                 
+     
+                 $req1 = "insert into utilisateur (usr_nom, usr_prenom, usr_email, usr_login, usr_pass,
+                 usr_dep, usr_ville, usr_tel) values ('$usr_nom', '$usr_prenom','$usr_email', '$usr_login', '$usr_pass', '$usr_dep',
+                 '$usr_ville', '$usr_tel')";
+                 $res1 = $dbh -> query($req1);
+     
+     }
+     ?>
+<!-- fin CONEXION -->
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+<!--  -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf8">
-	<link rel="icon" type="image/png" href="public/img/logo_ligue.png"/>
+	<link rel="icon" type="image/png" href="Mettrelogo.png"/>
 	<title href="M2L.php">M2L</title>
 	<meta name="description" content="Site de la M2L.">
 	
@@ -97,13 +148,13 @@ include 'header.php';
                     </div>
                             <div style="padding-top: 2%; padding-bottom: 2%;">
                                 <label for="email">E-mail</label>
-                                <input type="email" class="form-control" name="email_connect" 
+                                <input type="email" class="form-control" name="usr_email" 
                                 placeholder="identifiant@nomdedomaine.fr" required>
                                 
                             </div>
                             <div style="padding-top: 2%; padding-bottom: 2%;">
                                 <label for="mdp">Mot de passe</label>
-                                <input type="password" class="form-control" name="mdp_connect" id="ok" 
+                                <input type="password" class="form-control" name="usr_pass" id="ok" 
                                 placeholder="********" required>
                             
                             </div>						
