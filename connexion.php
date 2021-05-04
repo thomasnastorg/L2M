@@ -66,14 +66,14 @@ include 'header.php';
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Password:</label>
+    <label for="inputPassword3" class="col-sm-2 control-label">Mot de passe:</label>
     <div class="col-sm-10">
       <input type="password" class="form-control" name="usr_pass" placeholder="votre mot de passe">
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default" name="connexion">Sign in</button>
+      <button type="submit" class="btn btn-default" name="connexion">Connexion</button>
     </div>
   </div><br><br>
   <div><center>
