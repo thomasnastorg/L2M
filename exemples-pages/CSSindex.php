@@ -197,10 +197,10 @@ include '../header.php';
 				}
 				}
 			</script>
+</html>
+
 <?php
 include '../footer.php';
 ?>
 
 	</body>
-</html>
-

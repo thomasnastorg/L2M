@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+
 include_once 'db_connect.php';
 
 
@@ -238,10 +238,9 @@ function myFunction() {
 }
 </script>
 
-
-
-
-
-
 </body>
 </html>
+
+<?php
+include 'footer.php';
+?>

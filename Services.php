@@ -76,3 +76,7 @@ Le CROSL offre un catalogue diversifié de formations aux bénévoles des clubs 
 </p>
 </body>
 </html>
+
+<?php
+include 'footer.php';
+?>

@@ -44,3 +44,7 @@ Implantation des ligues dans les bureaux En fonction de leur importance, les lig
 </p>
 </body>
 </html>
+
+<?php
+include 'footer.php';
+?>

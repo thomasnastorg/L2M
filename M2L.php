@@ -18,4 +18,10 @@ Une maison au service du sport En décidant en 2000 de l'acquisition et la réha
 <br><br>Véritable lieu de vie, cette Maison propose aux Ligues et Comités, des locaux fonctionnels situés à l'est de Nancy, permettant ainsi aux dirigeants, aux bénévoles et aux salariés d'échanger, de partager, de se former et de se regrouper dans des conditions optimales. Ce sont ici plus de 3 550 clubs lorrains, toutes disciplines confondues, qui bénéficient de cet outil. Un tel établissement est à la fois un facteur fort de cohésion et de qualité du sport régional.
 <br><br>Il a pour vocation d'héberger les structures sportives régionales, de leur fournir des services administratifs, comptables et juridiques. Entièrement financée par la région Lorraine, la Maison Régionale des Sports de Lorraine est gérée en partenariat par la région Lorraine et le Comité Régional Olympique et Sportif de Lorraine (CROSL) qui est l'initiateur d'une politique sportive régionale unitaire.
 </body>
+
+
 </html>
+
+<?php
+include 'footer.php';
+?>

@@ -40,3 +40,7 @@ En ce moment, sous l’impulsion du ministère, nous œuvrons au développement 
     </p>
 </body>
 </html>
+
+<?php
+include 'footer.php';
+?>

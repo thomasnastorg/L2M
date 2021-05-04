@@ -20,3 +20,6 @@ Une convention de cogestion a été passée entre le Conseil Régional et le Com
 </p>
 </body>
 </html>
+<?php
+include 'footer.php';
+?>

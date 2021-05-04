@@ -57,3 +57,7 @@ C'est au rez-de-chaussée, dans la baie de brassage principale du bâtiment B qu
 </p>
 </body>
 </html>
+
+<?php
+include 'footer.php';
+?>

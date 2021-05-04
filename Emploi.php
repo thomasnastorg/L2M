@@ -4,49 +4,60 @@ include 'db_connect.php';
 ?>
 <body>
 
-<center><h1>Rechercher une offre</h1></center>
+<!-- Main -->
+<section id="main">
+					<div class="container">
 
-<center><form action="#" method="POST">
-<input type="radio" name="Rech" id="Categ" value="1">Recherche par catégorie</input>
-<br><br>
-Je recherche
-<br><br>
-<select name="Type" id="Type">
-    <option value="indeterminé">-Veuillez choisir une option-</option>
-    <option value="CDI">CDI</option>
-    <option value="CDD">CDD</option>
-    <option value="stage">Stage</option>
-    <option value="alternance">Alternance</option>
-</select>
-<br><br>
-D'une durée
-<br><br>
-<select name="Temps" id="Temps">
-    <option value="indeterminée">-Veuillez choisir une option-</option>
-    <option value="de 0 à 2 mois">de 0-2 mois</option>
-    <option value="de 2 à 6 mois">de 2-6 mois</option>
-    <option value="de plus de 6 mois">de +6 mois</option>
-    <option value="indeterminée">Indeterminée</option>
-</select>
-<br><br>
-Dans le domaine
-<br><br>
-<select name="Domaine" id="Domaine">
-    <option value="indeterminé">-Veuillez choisir une option-</option>
-    <option value="informatique">Informatique</option>
-    <option value="comptabilité">Comptabilité</option>
-    <option value="managérial">Managérial</option>
-    <option value="autre">Autre</option>
-</select>
-<br><br><br><br>
-<input type="radio" name="Rech" id="cle" value="2">Recherche par nom ou référence</input>
-<br><br>
-<input type="text" placeholder="Entrez un mot clé" name="mot" id="mot">
-<br><br><br><br>
-<input type="submit" value="Rechercher">
-</form></center>
-</body>
-
+						<!-- Content -->
+							<article class="box post">
+								
+								<header>
+                                    <center><h2>Rechercher une offre</h2></center>
+                                    <center><p>Par catégorie</p></center>
+                
+                                    
+                                    <center><form action="#" method="POST">
+                                    <br><br>
+                                    Je recherche
+                                    <br><br>
+                                    <select name="Type" id="Type">
+                                        <option value="indeterminé">-Veuillez choisir une option-</option>
+                                        <option value="CDI">CDI</option>
+                                        <option value="CDD">CDD</option>
+                                        <option value="stage">Stage</option>
+                                        <option value="alternance">Alternance</option>
+                                    </select>
+                                    <br><br>
+                                    D'une durée
+                                    <br><br>
+                                    <select name="Temps" id="Temps">
+                                        <option value="indeterminée">-Veuillez choisir une option-</option>
+                                        <option value="de 0 à 2 mois">de 0-2 mois</option>
+                                        <option value="de 2 à 6 mois">de 2-6 mois</option>
+                                        <option value="de plus de 6 mois">de +6 mois</option>
+                                        <option value="indeterminée">Indeterminée</option>
+                                    </select>
+                                    <br><br>
+                                    Dans le domaine
+                                    <br><br>
+                                    <select name="Domaine" id="Domaine">
+                                        <option value="indeterminé">-Veuillez choisir une option-</option>
+                                        <option value="informatique">Informatique</option>
+                                        <option value="comptabilité">Comptabilité</option>
+                                        <option value="managérial">Managérial</option>
+                                        <option value="autre">Autre</option>
+                                    </select>
+                                    <br><br><br><br>
+                                    <input type="radio" name="Rech" id="cle" value="2">Recherche par nom ou référence</input>
+                                    <br><br>
+                                    <input type="text" placeholder="Entrez un mot clé" name="mot" id="mot">
+                                    <br><br><br><br>
+                                    <input type="submit" value="Rechercher">
+                                    </form></center>
+								</header>
+                                </article> 
+                                <article class="box post">
+                                    <center><h2>Résultats<h2></center>
 <?php
 $Rech=$_POST["Rech"];
 if(isset($Rech)){
@@ -89,4 +100,13 @@ echo"<table border=\" 1 \">
 $req="SELECT * FROM emploi";
 print(mysql_query($req));
 
+?>
+							</article>
+
+					</div>
+				</section>
+
+</body>
+<?php
+include 'footer.php';
 ?>

@@ -78,7 +78,9 @@ Email : jeannine.vuillemard@m2l.fr<br><br>
 
 
 
-
+<?php
+include 'footer.php';
+?>
 
 </body>
 </html>
