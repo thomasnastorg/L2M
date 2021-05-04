@@ -1,3 +1,6 @@
+<?php
+include 'header.php';
+?>
 <body>
 
 <center><h1>Rechercher une offre</h1></center>

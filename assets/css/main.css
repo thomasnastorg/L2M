@@ -91,7 +91,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #252122;
+		/* background: #252122; */
 		background-image: url("images/bg02.png");
 	}
 
@@ -2188,7 +2188,7 @@ input, select, textarea {
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
-		margin: 4em 0 0 0;
+		margin : 0;
 	}
 
 		#banner header {
@@ -2297,6 +2297,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
+		background-color: #2e2e2e;
 		position: relative;
 		color: #858484;
 		padding: 4em 0;
