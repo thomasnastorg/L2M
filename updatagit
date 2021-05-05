@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /home/centos/webl2m/www
+cd /home/centos/mywebl2m/www
 git pull
-d
+
