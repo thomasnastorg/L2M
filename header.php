@@ -24,7 +24,7 @@
 	<ul>
                 <li>
                     <a href="./index.php">
-                        <i class="fa fa-home fa-2x" style="color: #d52349; font-size: 20px;"></i>
+                        <i class="fa fa-home fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
                         <span class="nav-text">
                             Accueil
                         </span>
@@ -34,7 +34,7 @@
              
                 <li class="has-subnav">
                     <a href="./Emploi.php">
-                       <i class="fa fa-briefcase fa-2x" style="color: #d52349; font-size: 20px;"></i>
+                       <i class="fa fa-briefcase fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
                         <span class="nav-text">
                             Emploi
                         </span>
@@ -43,7 +43,7 @@
                 </li>
                 <li class="has-subnav">
                     <a href="./Reservation.php">
-                       <i class="fa fa-table fa-2x" style="color: #d52349; font-size: 20px;"></i>
+                       <i class="fa fa-table fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
                         <span class="nav-text">
                             Réservation
                         </span>
@@ -52,7 +52,7 @@
                 </li>
                 <li>
                     <a href="./Contact.php">
-                        <i class="fa fa-envelope fa-2x" style="color: #d52349; font-size: 20px;"></i>
+                        <i class="fa fa-envelope fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
                         <span class="nav-text">
                             Contact
                         </span>
@@ -61,7 +61,7 @@
 
 				<li class="has-subnav">
                     <a href="./M2L.php">
-                        <i class="fa fa-trophy fa-2x" style="color: #d52349; font-size: 20px;"></i>
+                        <i class="fa fa-trophy fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
                         <span class="nav-text">
                             M2L
                         </span>
