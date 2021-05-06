@@ -128,7 +128,7 @@
 							<a href="./inscription.php">
 								<i class="fa fa-sign-out fa-2x" style="color: #d52349; font-size: 20px;"></i>
 								<span class="nav-text">
-									Inscription
+									Déconnexion
 								</span>
 							</a>
 						</li>';
