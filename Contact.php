@@ -23,9 +23,9 @@ include 'header.php';
     </style>
 </head>
 <body>
-    
-
-
+<section id="main">
+			<div class="container">
+					<article class="box post">
         
 <center>
     <header class="major">

@@ -137,5 +137,9 @@
 								<h2>ML2</h2>
 								<p>Bienvenue sur le site de la Maison des Ligues de Lorraine !</p>
 							</header>
-						</section>
+				</section>
+
+				<div>
+					<a href="index.php"><img src="images\logo2.png" style="position:fixed; right:2em; top:2em; width: 5em; z-index: 1;"></a>
+				</div>
 </body> 

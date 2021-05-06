@@ -19,7 +19,7 @@ include 'header.php';
 							<article class="box post">
 								
 								<header>
-                                    <center><h2>Statut Juridique</h2></center> </br>
+                                    <center><a><h2>Statut Juridique</h2></a></center> </br>
                                     
                                     <center>
                                     <p>

@@ -92,8 +92,10 @@ if (isset ($_POST["connexion"])){
 <section id="main">
 					<div class="container">
 							<article class="box post">
-
-<!--               
+                        <header>
+                                    <center><a><h2>Réservations</h2></a></center> </br>
+                        </header>
+<!--                  
                       <div style="position: static;"> -->
                           
                           <div style="border: 1px solid none;" class="container-fluid" id="pagin_resA">
@@ -184,8 +186,8 @@ if (isset ($_POST["connexion"])){
 
       <div id="reservation" class="container">
       </br></br> </br>
-          <center><h2>RESERVATION DES SALLES</h2> </br>
-          <h4>Interview du Directeur Lucien Sapin.</h4> </br> </br><hr></center>
+          <center>
+          <h3>Interview du Directeur Lucien Sapin.</h3> </br><hr></center>
 
           <center><h4>COMMENT FONCTIONNE LE SYSTÈME DE RÉSERVATION DES SALLES RESSOURCES, COMME LES SALLES DE RÉUNIONS, L’AMPHITHÉÂTRE OU ENCORE LA NOUVELLE SALLE DE CONVIVIALITÉ ?</h4></center>
           </br>

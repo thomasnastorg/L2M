@@ -19,7 +19,7 @@ include 'header.php';
 							<article class="box post">
 								
 								<header>
-                                    <center><h2>PRESENTATION DE LA MAISON DES LIGUES DE LORRAINE </h2></center> </br>
+                                    <center><a><h2>Présentation de la maison des ligues de Lorraine</h2></a></center> </br>
                                     <center><p>La Maison des Ligues est un établissement du Conseil Régional. Ce n’est pas une entité juridique en propre.</p></center>
                 
                                     
