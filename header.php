@@ -16,8 +16,12 @@
 		
 	<?php   
 	
+	if (session_status() == PHP_SESSION_NONE) {
+		session_start();
+		$_SESSION["auth"]= false;
+		
+	}
 
-	session_start();
 	?>
 
 <div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px; ">
