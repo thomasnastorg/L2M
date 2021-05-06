@@ -99,7 +99,7 @@ include 'header.php';
 							<input type="radio" name="radio-btn" id="img-3" />
 							<li class="slide-container">
 								<div class="slide">
-								  <img src="images/football.png" />
+								  <img src="images/foot.png" />
 								</div>
 								<div class="navi">
 									<label for="img-2" class="prev">&#x2039;</label>
@@ -143,13 +143,15 @@ include 'header.php';
 											</br>
 										</header>
 										<div id="myDIV">
-											<u>Rugby</u>:Sport d'équipe dans lequel il faut poser un ballon ovale derrière la ligne de but de l'adversaire (essai), ou le faire passer entre les poteaux de but.
-											&nbsp;
-											<u>Natation</u>: Exercice, sport de la nage.
-											&nbsp;
-											<u>Fooot</u>:  Sport opposant deux équipes de onze joueurs, où il faut faire pénétrer un ballon rond dans les buts adverses sans utiliser les mains (au Canada, on dit soccer)
-											&nbsp;
-								
+											<u>Rugby</u> : Sport d'équipe dans lequel il faut poser un ballon ovale derrière la ligne de but de l'adversaire (essai), ou le faire passer entre les poteaux de but.
+											<br><br>
+											<u>Natation</u> : Exercice, sport de la nage.
+											<br><br>
+											<u>Foot</u> :  Sport opposant deux équipes de onze joueurs, où il faut faire pénétrer un ballon rond dans les buts adverses sans utiliser les mains (au Canada, on dit soccer)
+											<br><br>
+											<u> Baseball</u> : sport collectif dérivé des mêmes racines que le cricket, qui se pratique sur un terrain de gazon et de sable. Il se joue avec des battes pour frapper une balle lancée, et des gants pour rattraper la balle
+											<br><br>
+
 										</div>
 									</section>
 

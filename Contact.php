@@ -24,21 +24,6 @@ include 'header.php';
 </head>
 <body>
     
-<<<<<<< Updated upstream
-<section id="main">
-	<div class="container">
-        <article class="box post">
-=======
-<center>
- <!--FAIRE PANNEAU REDUCTIBLE ICI   -->
-<h1>Hentai</h1><br><br>
-
-<u>Maison des ligues de lorraine</u><br><br>
-
-13 rue Jean Moulin - BP 70001 54510 TOMBLAINE<br><br>
-
-Tél. : 03.83.18.87.02<br><br>
->>>>>>> Stashed changes
 
 
         
