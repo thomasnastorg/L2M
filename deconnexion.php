@@ -1,5 +1,7 @@
 <?php
 session_start();
-unset($_SESSION['auth']);
+session_destroy();
+//unset($_SESSION['auth']);
 header("Location: connexion.php");
+exit;
 ?>

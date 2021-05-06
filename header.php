@@ -1,3 +1,12 @@
+<?php   
+	
+	if (session_status() == PHP_SESSION_NONE) {
+		session_start();
+		
+	}
+
+	?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,15 +23,7 @@
 	</head>   
 	<body>
 		
-	<?php   
-	
-	if (session_status() == PHP_SESSION_NONE) {
-		session_start();
-		$_SESSION["auth"]= false;
-		
-	}
 
-	?>
 
 <div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px; ">
 
@@ -122,23 +123,19 @@
             </ul>
 
             <ul class="logout">
-			<?php if ($_SESSION['auth'] == true){
-					echo "<li> <a href='./deconnexion.php'>deconnexion</a>";
+			<?php if ($_SESSION['auth'] != ""){
+					echo "<li> <a href='./deconnexion.php'>Deconnexion</a>";
 			}else{	
-				echo "<li> <a href='./inscription.php'>s'inscrire</a>";
-				echo "<li> <a href='./connexion.php'>connexion</a>";
+				echo "<li> <a href='./inscription.php'>S'inscrire</a>";
+				echo "<li> <a href='./connexion.php'>Connexion</a>";
 			}
-			  ?>	
-			<li> <a href="./deconnexion.php">deconnexion</a>
+			  ?>
             </ul>
         </nav>
-
-						<section id="banner" style="margin-top: -6em;">
+				<section id="banner" style="margin-top: -6em;">
 							<header>
 								<h2>ML2</h2>
 								<p>Bienvenue sur le site de la Maison des Ligues de Lorraine !</p>
 							</header>
 						</section>
-
-
 </body> 

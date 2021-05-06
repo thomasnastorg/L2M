@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include_once 'db_connect.php';
 
 if (isset ($_POST["connexion"])){
@@ -11,8 +11,7 @@ if (isset ($_POST["connexion"])){
 
 
   if( password_verify($_POST['usr_pass'], $userL->usr_pass) ){
-    session_start();
-    $_SESSION["auth"]= true;
+    $_SESSION["auth"]= $userL;
     header("Location: index.php");
     exit;
   }else{
@@ -81,7 +80,9 @@ include 'header.php';
   <a href="inscription.php"><button type="button" class="btn btn-default">S'inscrire</button></a>
   </div>
 </form>
+<?php
 
+?>
    
   </body>
 </html>
