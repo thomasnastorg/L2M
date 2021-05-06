@@ -1,5 +1,10 @@
 <?php   
+	
+	
 		session_start();
+		
+	
+
 	?>
 
 <!DOCTYPE html>
@@ -119,12 +124,35 @@
 
             <ul class="logout">
 			<?php if ($_SESSION['auth'] != ""){
-					echo "<li> <a href='./deconnexion.php'>Deconnexion</a>";
+					echo '<li class="has-subnav">
+							<a href="./inscription.php">
+								<i class="fa fa-sign-out fa-2x" style="color: #d52349; font-size: 20px;"></i>
+								<span class="nav-text">
+									Inscription
+								</span>
+							</a>
+						</li>';
 			}else{	
-				echo "<li> <a href='./inscription.php'>S'inscrire</a>";
-				echo "<li> <a href='./connexion.php'>Connexion</a>";
+				echo '<li class="has-subnav">
+						<a href="./inscription.php">
+							<i class="fa fa-lock fa-2x" style="color: #d52349; font-size: 20px;"></i>
+							<span class="nav-text">
+								Inscription
+							</span>
+						</a>
+					</li>';
+				echo '<li class="has-subnav">
+						<a href="./connexion.php">
+							<i class="fa fa-sign-in fa-2x" style="color: #d52349; font-size: 20px;"></i>
+							<span class="nav-text">
+								Connexion
+							</span>
+						</a>
+					</li>';
 			}
 			  ?>
+			  
+				
             </ul>
         </nav>
 				<section id="banner" style="margin-top: -6em;">
