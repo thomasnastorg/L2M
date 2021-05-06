@@ -15,10 +15,11 @@
 	<body>
 		
 	<?php   
-	/*if (session_status() == PHP_SESSION_NONE) {
-		session_start();
-	}*/
+	
+
+	session_start();
 	?>
+
 <div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px; ">
 
 	<ul>
@@ -117,12 +118,13 @@
             </ul>
 
             <ul class="logout">
-			<?php if (($_SESSION['auth'])): ?>
-					<li> <a href="./deconnexion.php">deconnexion</a>
-			<?php else: ?>	
-				<li> <a href="./connexion.php">s'inscrire</a>  
-				<li> <a href="./connexion.php">connexion</a>
-			<?php endif; ?>	
+			<?php if ($_SESSION['auth'] == true){
+					echo "<li> <a href='./deconnexion.php'>deconnexion</a>";
+			}else{	
+				echo "<li> <a href='./inscription.php'>s'inscrire</a>";
+				echo "<li> <a href='./connexion.php'>connexion</a>";
+			}
+			  ?>	
 			<li> <a href="./deconnexion.php">deconnexion</a>
             </ul>
         </nav>

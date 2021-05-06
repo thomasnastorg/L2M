@@ -11,12 +11,12 @@ if (isset ($_POST["connexion"])){
 
 
   if( password_verify($_POST['usr_pass'], $userL->usr_pass) ){
-   session_start();
-    $_SESSION["auth"]= $userL;
+    session_start();
+    $_SESSION["auth"]= true;
     header("Location: index.php");
     exit;
   }else{
-    echo"conection imposible";
+    echo"connection impossible";
   }
   
 
