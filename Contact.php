@@ -6,71 +6,92 @@ include 'header.php';
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <style>
+        .esp1 {
+            margin-bottom: 70px;
+        }
+        .p {
+            line-height: 40px !important;
+        }
+        h3 {
+            margin-top: 70px !important;
+            margin-bottom: 40px !important;
+        }
+    </style>
 </head>
 <body>
     
+<section id="main">
+	<div class="container">
+        <article class="box post">
+
 <center>
  <!--FAIRE PANNEAU REDUCTIBLE ICI   -->
-<h1>Coordonnées</h1><br><br>
+<h2 class="esp1">Coordonnées</h2>
 
-<u>Maison des ligues de lorraine</u><br><br>
+<h3><u>Maison des ligues de lorraine</u></h3>
 
-13 rue Jean Moulin - BP 70001 54510 TOMBLAINE<br><br>
+<p class="ligne">13 rue Jean Moulin - BP 70001 54510 TOMBLAINE
+Tél. : 03.83.18.87.02<br>
+Fax : 03.83.18.87.03<br>
+Email : contact@m2l.fr<br></p>
 
-Tél. : 03.83.18.87.02<br><br>
 
-Fax : 03.83.18.87.03<br><br>
+<h3><u>DIRECTEUR Lucien SAPIN</u></h3>
 
-Email : contact@m2l.fr<br><br>
-<br><br><br><br>
 
-<u>DIRECTEUR Lucien SAPIN</u><br><br>
+Tél. : 03 83 18 87 02<br>
 
-Tél. : 03 83 18 87 02<br><br>
+Fax : 03 83 18 87 03<br>
 
-Fax : 03 83 18 87 03<br><br>
+Email : lucien.gastaldello@m2l.fr<br>
 
-Email : lucien.gastaldello@m2l.fr<br><br>
-<br><br><br><br>
 
-<u>CHARGÉE IMPACT EMPLOI</u><br><br>
+<h3><u>CHARGÉE IMPACT EMPLOI</u></h3>
 
-Nathalie GENAIS<br><br>
 
-Tél. : 03 83 18 87 05<br><br>
+Nathalie GENAIS<br>
 
-Email : martine.genoux@m2l.fr<br><br>
-<br><br><br><br>
+Tél. : 03 83 18 87 05<br>
 
-<u>SECRÉTAIRE COMPTABLE</u><br><br>
+Email : martine.genoux@m2l.fr<br>
 
-Martine DUPONT<br><br>
 
-Tél. : 03 83 18 87 07<br><br>
+<h3><u>SECRÉTAIRE COMPTABLE</u></h3>
 
-Fax : 03 83 18 87 03<br><br>
+Martine DUPONT<br>
 
-Email : jeannine.vuillemard@m2l.fr<br><br>
+Tél. : 03 83 18 87 07<br>
 
+Fax : 03 83 18 87 03<br>
+
+Email : jeannine.vuillemard@m2l.fr<br><br><br><br><br>
 
 <!-- Fénetre réductible -->
-<h1>CONTACTS</h1><br><br>
+<h2>Contact</h2><br><br>
 
-<u> Nom :</u> <br> <input> 
-<br>
-<u> Prenom :</u> <br> <input> 
-<br><br>
-<u> Email :</u> <br> <input  placeholder="  Votre@mail.fr"> 
-<br><br><br><br><br>
-<u>Message :  </u>    <input>
+    <form>
+        <u> Nom :</u> <br> <input> 
+        <br>
+        <u> Prenom :</u> <br> <input> 
+        <br><br>
+        <u> Email :</u> <br> <input  placeholder="  Votre@mail.fr"> 
+        <br><br><br><br><br>
+        <u>Message :  </u>    <input>
 
-<input type="submit" value="Envoyé">
+        <input type="submit" value="Envoyé">
 
-
+    </form>
+    
 </center>
 
+
+        </article>
+    </div>
+</section>
 
 
 
