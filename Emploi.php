@@ -3,7 +3,7 @@ include 'header.php';
 include 'db_connect.php';
 ?>
 <body>
-
+<title>M2L : Emploi</title>
 <!-- Main -->
 <section id="main">
 					<div class="container">

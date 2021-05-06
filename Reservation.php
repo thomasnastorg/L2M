@@ -57,7 +57,7 @@ if (isset ($_POST["connexion"])){
 <!--  -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf8">
 	<link rel="icon" type="image/png" href="Mettrelogo.png"/>
-	<title href="M2L.php">M2L</title>
+	<title>M2L : Réservation</title>
   <link rel="stylesheet" href="assets/css/main.css" />
 	<meta name="description" content="Site de la M2L.">
 	

@@ -8,7 +8,7 @@ include 'header.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="assets/css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>M2L : Contact</title>
     <style>
         .esp1 {
             margin-bottom: 70px;
