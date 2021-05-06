@@ -125,7 +125,7 @@
             <ul class="logout">
 			<?php if ($_SESSION['auth'] != ""){
 					echo '<li class="has-subnav">
-							<a href="./inscription.php">
+							<a href="./deconnexion.php">
 								<i class="fa fa-sign-out fa-2x" style="color: #d52349; font-size: 20px;"></i>
 								<span class="nav-text">
 									Déconnexion
