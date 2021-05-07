@@ -67,9 +67,7 @@ include 'header.php';
 							la M2L accueille l'ensemble du mouvement sportif Lorrain qui représente près de 6 500 clubs, 
 							plus de 525 000 licenciés et près de 50 000 bénévoles.
 						</p>
-						<?php
-							var_dump($_SESSION);
-						?>
+						
 
 						<h2 style="margin-bottom: 2em;"><u>Activités principales</u></h2>
 
