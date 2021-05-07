@@ -117,8 +117,8 @@ echo"<table border=\" 1 \">
     </tbody>
 </table>";
 
-$req="SELECT * FROM emploi";
-print(mysql_query($req));
+$req1 = "select * from emploi";
+$res1 = $dbh -> query($req1);
 
 ?>
 							</article>
