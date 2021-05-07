@@ -12,11 +12,13 @@ include 'db_connect.php';
 							<article class="box post">
 								
 								<header>
-                                    <center><h2>Rechercher une offre</h2></center>
-                                    <center><p>Par catégorie</p></center>
+                                    <center><h2>Rechercher une offre</h2></center><br><br>
                 
                                     
                                     <center><form action="#" method="POST">
+                                    <!-- input 1 -->
+                                    <input type="radio" name="Rech" id="Categ" value="1" checked>Recherche par catégorie</input>
+                                    <!-- plus input 1 -->
                                     <br><br>
                                     Je recherche
                                     <br><br>
@@ -48,7 +50,9 @@ include 'db_connect.php';
                                         <option value="autre">Autre</option>
                                     </select>
                                     <br><br><br><br>
+                                    <!-- input 2 -->
                                     <input type="radio" name="Rech" id="cle" value="2">Recherche par nom ou référence</input>
+                                    <!-- plus input 2 -->
                                     <br><br>
                                     <input type="text" placeholder="Entrez un mot clé" name="mot" id="mot">
                                     <br><br><br><br>
