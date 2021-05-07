@@ -1,5 +1,6 @@
 <?php
 session_start();
+$_SESSION["auth"]="";
 include_once 'db_connect.php';
 
 if (isset ($_POST["connexion"])){
