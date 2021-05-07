@@ -8,7 +8,7 @@ include 'header.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="assets/css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M2L : Contact</title>
+    <title>L2M : Contact</title>
     <style>
         .esp1 {
             margin-bottom: 70px;
@@ -38,7 +38,7 @@ include 'header.php';
             <p class="ligne">13 rue Jean Moulin - BP 70001 54510 TOMBLAINE
             Tél. : 03.83.18.87.02<br>
             Fax : 03.83.18.87.03<br>
-            Email : contact@m2l.fr<br></p>
+            Email : contact@L2M.fr<br></p>
 
 
             <h3><u>DIRECTEUR Lucien SAPIN</u></h3>
@@ -48,7 +48,7 @@ include 'header.php';
 
             Fax : 03 83 18 87 03<br>
 
-            Email : lucien.gastaldello@m2l.fr<br>
+            Email : lucien.gastaldello@L2M.fr<br>
 
 
             <h3><u>CHARGÉE IMPACT EMPLOI</u></h3>
@@ -58,7 +58,7 @@ include 'header.php';
 
             Tél. : 03 83 18 87 05<br>
 
-            Email : martine.genoux@m2l.fr<br>
+            Email : martine.genoux@L2M.fr<br>
 
 
             <h3><u>SECRÉTAIRE COMPTABLE</u></h3>
@@ -69,7 +69,7 @@ include 'header.php';
 
             Fax : 03 83 18 87 03<br>
 
-            Email : jeannine.vuillemard@m2l.fr<br><br><br><br><br>
+            Email : jeannine.vuillemard@L2M.fr<br><br><br><br><br>
         </div>
 <!-- Fénetre réductible -->
     <header class="major">

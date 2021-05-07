@@ -47,7 +47,7 @@ include 'header.php';
 }
 ?>
 
-<title>M2L : Connexion</title>
+<title>L2M : Connexion</title>
   <body>
 
 <section id="main">

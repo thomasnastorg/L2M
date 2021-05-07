@@ -2,7 +2,7 @@
 include 'header.php';
 ?>
 
-<title>M2L : Inscription</title>
+<title>L2M : Inscription</title>
   <section id="main">
 					<div class="container">
 

@@ -24,7 +24,7 @@
 	
 	</head>   
 	<body>
-		
+
 
 
 <div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px; ">
@@ -68,10 +68,10 @@
                 </li>
 
 				<li class="has-subnav">
-                    <a href="./M2L.php">
+                    <a href="./L2M.php">
                         <i class="fa fa-trophy fa-2x" style="color: #d52349; font-size: 20px;"></i>
                         <span class="nav-text">
-                            M2L
+                            L2M
                         </span>
                     </a>
                     

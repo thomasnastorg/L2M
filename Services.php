@@ -7,7 +7,7 @@ include 'header.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M2L : Services</title>
+    <title>L2M : Services</title>
     <style>
         .box {
             margin-bottom: 0px;
@@ -20,7 +20,6 @@ include 'header.php';
 </head>
 <body>
 
-</p>
 
     <!-- Main -->
     <section id="main">
@@ -57,10 +56,10 @@ include 'header.php';
                                             <p style="text-align: justify;">
                                                 Lorsque les ligues acquièrent du matériel informatique, il y a une phase obligatoire d'intégration qui consiste à :
 
-                                                    </br>- Installer un antivirus affilié au serveur antiviral de la M2L ;
+                                                    </br>- Installer un antivirus affilié au serveur antiviral de la L2M ;
                                                     </br>- Installer la dernière version de l'agent qui réalise l’inventaire matériel et logiciel ;
                                                     </br>- Paramétrer le poste en adressage IP automatique ;
-                                                    </br>- Installer un système de sauvegarde de données sur un site FTP de sauvegarde géré par la M2L ;
+                                                    </br>- Installer un système de sauvegarde de données sur un site FTP de sauvegarde géré par la L2M ;
                                                     </br>- Effectuer les dernières mises à jour systèmes et à paramétrer leur automatisation ;
                                                     </br>- Paramétrer les noms des postes selon les règles de gestion suivantes :
                                                     </br>- B[code bâtiment]E[numéro étage]L[numéro ligue]S[numéro salle].P[numéro poste]
@@ -76,7 +75,7 @@ include 'header.php';
                                                 <h4>Exemples :</h4>
                                                 <p style="text-align: justify;">
                                                 Le nom d'hôte BAE2L06S01P01 correspond au poste installé sur la prise N°1 du bureau A201occupé par la ligue de Volley, bureau situé au deuxième étage du bâtiment A.
-                                                Cette intégration est contractualisée. Les ligues et CD étant toutes des structures associatives indépendantes, leurs postes ne sont pas intégrés dans un annuaire central. Par contre, les postes de l'administration de la M2L et de la salle multimédia le sont.
+                                                Cette intégration est contractualisée. Les ligues et CD étant toutes des structures associatives indépendantes, leurs postes ne sont pas intégrés dans un annuaire central. Par contre, les postes de l'administration de la L2M et de la salle multimédia le sont.
                                                 </p>
                                         </div>
 
@@ -88,7 +87,7 @@ include 'header.php';
 				<div class="col-4 col-6-medium col-12-small">
                     <section class="box">
                             <h3>Service accès Internet</h3><p>
-                            Les ligues disposent d'un accès Internet mutualisé que la M2L loue à un prestataire extérieur.
+                            Les ligues disposent d'un accès Internet mutualisé que la L2M loue à un prestataire extérieur.
                             </p></section>
                     <section class="box" style="background-color: rgba(245, 245, 245, 0.712);">
                         <h3>Accès Wifi</h3><p>
@@ -96,7 +95,7 @@ include 'header.php';
                         </p></section>
                     <section class="box">
                         <h3>Digicode du jour et clé wifi</h3><p>
-                        La M2L met à disposition des ligues un site web d'information sur le digicode permettant l'accès à la M2L ainsi que sur la clé Wifi "visiteurs". Le système de réservation donne également le digicode du jour dans le compte-rendu de réservation envoyé automatiquement par mail.
+                        La L2M met à disposition des ligues un site web d'information sur le digicode permettant l'accès à la L2M ainsi que sur la clé Wifi "visiteurs". Le système de réservation donne également le digicode du jour dans le compte-rendu de réservation envoyé automatiquement par mail.
                         </p></section>
                     <section class="box" style="background-color: rgba(245, 245, 245, 0.712);">
                         <h3>Formations</h3><p>
@@ -108,11 +107,11 @@ include 'header.php';
                 <div class="col-4 col-6-medium col-12-small">
 					<section class="box">
                         <h3>Téléphonie</h3><p>
-                        Dans les bâtiments anciens A et B, les salles et bureaux sont équipés de prises de téléphone analogiques. La M2L y fournit les combinés téléphoniques. Dans les bâtiments neufs C et D, l'équipement téléphonique est de type VoIP. La M2L loue des postes téléphoniques IP aux ligues.
+                        Dans les bâtiments anciens A et B, les salles et bureaux sont équipés de prises de téléphone analogiques. La L2M y fournit les combinés téléphoniques. Dans les bâtiments neufs C et D, l'équipement téléphonique est de type VoIP. La L2M loue des postes téléphoniques IP aux ligues.
                         </p></section>
                     <section class="box" style="background-color: rgba(245, 245, 245, 0.712);">
                         <h3>Serveur FTP documentaire</h3><p>
-                        La M2L met à disposition des ligues un serveur FTP documentaire intranet/internet regroupant des textes légaux, des modèles de dossiers, de statuts, des programmes de formation (...) compilés par le CROSL.
+                        La L2M met à disposition des ligues un serveur FTP documentaire intranet/internet regroupant des textes légaux, des modèles de dossiers, de statuts, des programmes de formation (...) compilés par le CROSL.
                         </p></section>
                     <section class="box">
                         <h3>Intégration d'imprimantes</h3><p>
@@ -132,11 +131,11 @@ include 'header.php';
                         </p></section>
                     <section class="box">
                         <h3>Digicode du jour et clé wifi</h3><p>
-                        La M2L met à disposition des ligues un site web d'information sur le digicode permettant l'accès à la M2L ainsi que sur la clé Wifi "visiteurs". Le système de réservation donne également le digicode du jour dans le compte-rendu de réservation envoyé automatiquement par mail.
+                        La L2M met à disposition des ligues un site web d'information sur le digicode permettant l'accès à la L2M ainsi que sur la clé Wifi "visiteurs". Le système de réservation donne également le digicode du jour dans le compte-rendu de réservation envoyé automatiquement par mail.
                         </p></section>
                     <section class="box" style="background-color: rgba(245, 245, 245, 0.712);">
                         <h3>Réservation des salles</h3><p>
-                        La M2L met à disposition des ligues un site web de réservation des salles (réunions, amphithéâtre, restauration). Ce site est accessible en intranet, mais aussi depuis l'internet. Les réservations payantes sont facturées par la Région aux utilisateurs. L’administration de la M2L lui communique les informations nécessaires à cette facturation de façon hebdomadaire.
+                        La L2M met à disposition des ligues un site web de réservation des salles (réunions, amphithéâtre, restauration). Ce site est accessible en intranet, mais aussi depuis l'internet. Les réservations payantes sont facturées par la Région aux utilisateurs. L’administration de la L2M lui communique les informations nécessaires à cette facturation de façon hebdomadaire.
                         </p>
                     </section>
 				</div>

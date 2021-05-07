@@ -7,7 +7,7 @@ include 'header.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M2L : Personnel</title>
+    <title>L2M : Personnel</title>
 </head>
 <body>
     <!-- Main -->
@@ -18,10 +18,10 @@ include 'header.php';
 							<article class="box post">
 								
 								<header>
-                                    <center><a><h2>Personnel de la M2L</h2></a></center> </br></br></br>
+                                    <center><a><h2>Personnel de la L2M</h2></a></center> </br></br></br>
                                     
                                     <center>
-                                    <h3>POUVEZ-VOUS NOUS PARLER DU PERSONNEL DE LA M2L ET DE LEURS MISSIONS ?</h3></br>
+                                    <h3>POUVEZ-VOUS NOUS PARLER DU PERSONNEL DE LA L2M ET DE LEURS MISSIONS ?</h3></br>
                                     <p>
                                         Les personnes qui travaillent ici sont de différentes catégories. Il y a d’abord ceux que j’appelle les «professionnels». Il y a deux employés du Conseil Régional (des factotums). Il y a sept ETP (Équivalents Temps Plein) employés par le CROSL ; il y a le personnel des prestataires (gardiennage, ménage) et les salariés des ligues. Ensuite, il y a les bénévoles qui sont les élus des associations : CROSL, CDOS, ligues, comités départementaux. Il y a également les élus du Conseil Régional et enfin tous les autres : visiteurs, stagiaires, etc.
                                     </p>

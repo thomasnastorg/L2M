@@ -57,9 +57,9 @@ if (isset ($_POST["connexion"])){
 <!--  -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf8">
 	<link rel="icon" type="image/png" href="Mettrelogo.png"/>
-	<title>M2L : Réservation</title>
+	<title>L2M : Réservation</title>
   <link rel="stylesheet" href="assets/css/main.css" />
-	<meta name="description" content="Site de la M2L.">
+	<meta name="description" content="Site de la L2M.">
 	
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
 <!-- Commenté par Marie car le fontawesome utilisé pr le menu est différente de celle ci -->
