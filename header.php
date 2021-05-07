@@ -156,7 +156,7 @@
         </nav>
 				<section id="banner" style="margin-top: -6em;">
 							<header>
-								<h2>ML2</h2>
+								<h2>M2L</h2>
 								<p>Bienvenue sur le site de la Maison des Ligues de Lorraine !</p>
 							</header>
 				</section>
