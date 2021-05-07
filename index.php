@@ -10,7 +10,7 @@ include 'header.php';
 -->
 <html>
 	<head>
-		<title>Dopetrope by HTML5 UP</title>
+		<title>M2L : Accueil</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -99,7 +99,7 @@ include 'header.php';
 							<input type="radio" name="radio-btn" id="img-3" />
 							<li class="slide-container">
 								<div class="slide">
-								  <img src="images/football.png" />
+								  <img src="images/foot.png" />
 								</div>
 								<div class="navi">
 									<label for="img-2" class="prev">&#x2039;</label>
@@ -118,35 +118,13 @@ include 'header.php';
 								</div>
 							</li>
 						
-							<input type="radio" name="radio-btn" id="img-5" />
-							<li class="slide-container">
-								<div class="slide">
-								  <img src="http://farm9.staticflickr.com/8055/8098750623_66292a35c0_z.jpg" />
-								</div>
-								<div class="navi">
-									<label for="img-4" class="prev">&#x2039;</label>
-									<label for="img-6" class="next">&#x203a;</label>
-								</div>
-							</li>
 						
-							<input type="radio" name="radio-btn" id="img-6" />
-							<li class="slide-container">
-								<div class="slide">
-								  <img src="http://farm9.staticflickr.com/8195/8098750703_797e102da2_z.jpg" />
-								</div>
-								<div class="navi">
-									<label for="img-5" class="prev">&#x2039;</label>
-									<label for="img-1" class="next">&#x203a;</label>
-								</div>
-							</li>
-						
+							
 							<li class="navi-dots">
 							  <label for="img-1" class="navi-dot" id="img-dot-1"></label>
 							  <label for="img-2" class="navi-dot" id="img-dot-2"></label>
 							  <label for="img-3" class="navi-dot" id="img-dot-3"></label>
 							  <label for="img-4" class="navi-dot" id="img-dot-4"></label>
-							  <label for="img-5" class="navi-dot" id="img-dot-5"></label>
-							  <label for="img-6" class="navi-dot" id="img-dot-6"></label>
 							</li>
 						</ul>
 
@@ -165,7 +143,15 @@ include 'header.php';
 											</br>
 										</header>
 										<div id="myDIV">
-											LOLOLOLOLOL
+											<u>Rugby</u> : Sport d'équipe dans lequel il faut poser un ballon ovale derrière la ligne de but de l'adversaire (essai), ou le faire passer entre les poteaux de but.
+											<br><br>
+											<u>Natation</u> : Exercice, sport de la nage.
+											<br><br>
+											<u>Foot</u> :  Sport opposant deux équipes de onze joueurs, où il faut faire pénétrer un ballon rond dans les buts adverses sans utiliser les mains (au Canada, on dit soccer)
+											<br><br>
+											<u> Baseball</u> : sport collectif dérivé des mêmes racines que le cricket, qui se pratique sur un terrain de gazon et de sable. Il se joue avec des battes pour frapper une balle lancée, et des gants pour rattraper la balle
+											<br><br>
+
 										</div>
 									</section>
 

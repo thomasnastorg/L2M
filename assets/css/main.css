@@ -36,7 +36,7 @@ body {
 
 .testopoivre{
 
-	color:purple;
+	color:rgba(245, 245, 245, 0.712);
 
 }
 
@@ -2181,10 +2181,9 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/pic01.jpg");
+		background: #CCE8F4 url("../../images/sport.png");
 		background-position: center center;
 		background-size: auto 100%;
-		background-repeat: no-repeat;
 		text-align: center;
 		position: relative;
 		padding: 8em 0;
@@ -2206,7 +2205,7 @@ input, select, textarea {
 			}
 
 			#banner header p {
-				color: #ffffff;
+				color: #d52349;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -2274,7 +2273,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #CCE8F4 url("../../images/Tho.PNG");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2297,7 +2296,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-color: #011821;
+		background-color: #2e2e2e;
 		position: relative;
 		color: #858484;
 		padding: 4em 0;

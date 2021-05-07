@@ -1,3 +1,12 @@
+<?php   
+	
+	
+		session_start();
+		
+	
+
+	?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,11 +23,8 @@
 	</head>   
 	<body>
 		
-	<?php   
-	/*if (session_status() == PHP_SESSION_NONE) {
-		session_start();
-	}*/
-	?>
+
+
 <div class="area"></div><nav class="main-menu" style="position:fixed; left:0px; top:0px; ">
 
 	<ul>
@@ -117,22 +123,46 @@
             </ul>
 
             <ul class="logout">
-			<?php if (($_SESSION['auth'])): ?>
-					<li> <a href="./deconnexion.php">deconnexion</a>
-			<?php else: ?>	
-				<li> <a href="./connexion.php">s'inscrire</a>  
-				<li> <a href="./connexion.php">connexion</a>
-			<?php endif; ?>	
-			<li> <a href="./deconnexion.php">deconnexion</a>
+			<?php if ($_SESSION['auth'] != ""){
+					echo '<li class="has-subnav">
+							<a href="./deconnexion.php">
+								<i class="fa fa-sign-out fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
+								<span class="nav-text">
+									Déconnexion
+								</span>
+							</a>
+						</li>';
+			}else{	
+				echo '<li class="has-subnav">
+						<a href="./inscription.php">
+							<i class="fa fa-lock fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
+							<span class="nav-text">
+								Inscription
+							</span>
+						</a>
+					</li>';
+				echo '<li class="has-subnav">
+						<a href="./connexion.php">
+							<i class="fa fa-sign-in fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
+							<span class="nav-text">
+								Connexion
+							</span>
+						</a>
+					</li>';
+			}
+			  ?>
+			  
+				
             </ul>
         </nav>
-
-						<section id="banner" style="margin-top: -6em;">
+				<section id="banner" style="margin-top: -6em;">
 							<header>
 								<h2>ML2</h2>
 								<p>Bienvenue sur le site de la Maison des Ligues de Lorraine !</p>
 							</header>
-						</section>
+				</section>
 
-
+				<div>
+					<a href="index.php"><img src="images\logo20.png" style="position:fixed; right:2em; top:2em; width: 5em; z-index: 1;"></a>
+				</div>
 </body> 
