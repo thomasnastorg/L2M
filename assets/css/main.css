@@ -2181,7 +2181,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #CCE8F4 url("../../images/sport.png");
+		background: #CCE8F4 url("../../images/Tho.PNG");
 		background-position: center center;
 		background-size: auto 100%;
 		text-align: center;
@@ -2273,7 +2273,7 @@ input, select, textarea {
 
 	#main {
 		position: relative;
-		background: #CCE8F4 url("../../images/Tho.PNG");
+		background: url("images/bg02.png");
 		padding: 4em 0 4em 0;
 	}
 
