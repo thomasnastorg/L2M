@@ -2205,7 +2205,7 @@ input, select, textarea {
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: #ffffff;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -2296,7 +2296,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-color: #2e2e2e;
+		background-color: #001922;
 		position: relative;
 		color: #858484;
 		padding: 4em 0;
