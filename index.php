@@ -68,7 +68,7 @@ include 'header.php';
 							plus de 525 000 licenciés et près de 50 000 bénévoles.
 						</p>
 						
-												---------------bonjour-------------------
+												
 						<h2 style="margin-bottom: 2em;"><u>Activités principales</u></h2>
 
 						
