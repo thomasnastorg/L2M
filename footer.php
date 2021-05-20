@@ -19,7 +19,7 @@
 
 		<!-- Footer -->
 		
-			<section id="footer" style="margin-bottom: 0px;">
+		<section id="footer" style="margin-bottom: 0px;">
 					<div class="container">
 						<div class="row">
 							<div class="col-8 col-12-medium">
@@ -30,6 +30,8 @@
 									<ul class="social">
 										<li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
 										<li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+										<li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
+										<li><a class="icon brands fa-tumblr" href="#"><span class="label">Tumblr</span></a></li>
 										<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
 									</ul>
 									<ul class="dates">
@@ -51,6 +53,8 @@
 									<ul class="social">
 										<li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
 										<li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+										<li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
+										<li><a class="icon brands fa-tumblr" href="#"><span class="label">Tumblr</span></a></li>
 										<li><a class="icon brands fa-linkedin-in" href="#"><span class="label">LinkedIn</span></a></li>
 									</ul>
 									<ul class="contact">
@@ -74,6 +78,20 @@
 								</section>
 							</div>
 							<div class="col-12">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+		</body> 
+
 
 								<!-- Copyright -->
 									<div id="copyright">
