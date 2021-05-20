@@ -3,7 +3,7 @@ include 'header.php';
 include 'db_connect.php';
 ?>
 <body>
-<title>L2M : Emploi</title>
+<title> M2L : Emploi</title>
 <style>
     input {
         -webkit-appearance: radio !important;
@@ -112,7 +112,8 @@ echo"<table border=\" 1 \">
             <td><center>Via Mobilis<center></td>
         </tr>
         <tr>
-            <td colspan=\"2\"><center><a href=\"https://fr.indeed.com/emplois?q=Commercial%20Sport&l=Lorraine&vjk=2fc5378d40e81df5\">Postuler</a></center></td>
+            <td colspan=\"2\"><center><a href=\"\">Postuler</a></center></td>   
+                            
         </tr>
     </tbody>
 </table>";
