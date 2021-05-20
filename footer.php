@@ -19,7 +19,7 @@
 
 		<!-- Footer -->
 		
-		<section id="footer" style="margin-bottom: 0px;">
+			<section id="footer" style="margin-bottom: 0px;">
 					<div class="container">
 						<div class="row">
 							<div class="col-8 col-12-medium">
@@ -90,5 +90,4 @@
 						</div>
 					</div>
 				</section>
-				
-		</body> 
+		</body>
