@@ -112,14 +112,11 @@ echo"<table border=\" 1 \">
             <td><center>Via Mobilis<center></td>
         </tr>
         <tr>
-            <td colspan=\"2\"><center><a href=\"\">Postuler</a></center></td>   
+            <td colspan=\"2\"><center><a href=\"Qcmm.php\">Postuler</a></center></td>   
                             
         </tr>
     </tbody>
 </table>";
-
-$req1 = "select * from emploi";
-$res1 = $dbh -> query($req1);
 
 ?>
 							</article>

@@ -13,7 +13,7 @@ $data = $res ->fetchAll(PDO::FETCH_ASSOC);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>QCM</title>
+    <title>M2L : Emploi</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -26,7 +26,7 @@ $data = $res ->fetchAll(PDO::FETCH_ASSOC);
     <![endif]-->
   </head>
   <body>
-    <h1><center>Bienvenu dans le niveau facile du QCM</h1><hr>
+    <h1><center>Veuillez répondre à ce questionnaire avant de postuler à l'offre d'emploi</h1><hr>
     <form action="" method="POST">
     <?php
     foreach ($data as $line){
