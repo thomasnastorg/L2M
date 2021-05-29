@@ -27,29 +27,31 @@ $data = $res ->fetchAll(PDO::FETCH_ASSOC);
   </head>
   <body>
     <h1><center>Veuillez répondre à ce questionnaire avant de postuler à l'offre d'emploi</h1><hr>
-    <form action="" method="POST">
+    <form action="Emploi.php" method="POST"><center>
     <?php
     foreach ($data as $line){
-        echo "<h4>".$line['libelleQ']."<br></h4>";
+        echo "<h3>".$line['qestion']."<br></h3>";
         $id=$line["idq"];
-$req1 = "select * from reponses where idq= $id;";
-$res1= $dbh -> query($req1);
-$data1 = $res1 ->fetchAll(PDO::FETCH_ASSOC);
+        $req = "select * from questions where niveau=0 order by rand() limit  10;";
+        $res= $dbh -> query($req);
+        $data = $res ->fetchAll(PDO::FETCH_ASSOC);
+        $req1 = "select * from reponses where idq= $id;";
+        $res1= $dbh -> query($req1);
+        $data1 = $res1 ->fetchAll(PDO::FETCH_ASSOC);
     foreach ($data1 as $line1){
         $idr = $line1["idr"];
         $idq = $line1["idq"];
-        $idv = $line1["verite"];
         echo "<div class=\"row\">
-        <div class=\"col-lg-6\">
+  
           <div class=\"input-group\">
-              <input type=\"radio\" name=$idq>".$line1['libeller']."</div>
+              <h4><input type=\"radio\" name=$idq>".$line1['libeller']."</h4></div>
         </div>
       </div><br>";
     }
        
     }
     ?>
-    
+    <input type="submit" value="Valider">
 </form>
     
 

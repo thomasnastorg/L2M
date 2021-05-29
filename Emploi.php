@@ -79,7 +79,9 @@ include 'db_connect.php';
                         <article class="box post">
                         <center><h2>Résultats<h2></center>
 <?php
-$Rech=$_POST["Rech"];
+if(isset($_POST["Rech"])){
+    $Rech=$_POST["Rech"];
+}
 if(isset($Rech)){
 if($Rech =="2") {
     $mot=$_POST["mot"];
