@@ -68,7 +68,7 @@
                 </li>
 
 				<li class="has-subnav">
-                    <a href="./L2M.php">
+                    <a href="./M2L.php">
                         <i class="fa fa-trophy fa-2x" style="color: #d52349; font-size: 20px;"></i>
                         <span class="nav-text">
                             L2M
@@ -145,7 +145,7 @@
 					</li>';
 				echo '<li class="has-subnav">
 						<a href="./connexion.php">
-							<i class="fa fa-sign-in fa-2x" style="color: #d52349; font-size: 20px;"></i>
+							<i class="fa fa-share fa-2x" style="color: #d52349; font-size: 20px;"></i>
 							<span class="nav-text">
 								Connexion
 							</span>
