@@ -142,7 +142,7 @@
 					</li>';
 				echo '<li class="has-subnav">
 						<a href="./connexion.php">
-							<i class="fa fa-sign-in fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
+							<i class="fa fa-share fa-2x" style="color: #EB7E05; font-size: 20px;"></i>
 							<span class="nav-text">
 								Connexion
 							</span>
