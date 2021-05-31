@@ -13,7 +13,7 @@ $data = $res ->fetchAll(PDO::FETCH_ASSOC);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>QCM</title>
+    <title>M2L : Emploi</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -26,30 +26,32 @@ $data = $res ->fetchAll(PDO::FETCH_ASSOC);
     <![endif]-->
   </head>
   <body>
-    <h1><center>Bienvenu dans le niveau facile du QCM</h1><hr>
-    <form action="" method="POST">
+    <h1><center>Veuillez répondre à ce questionnaire avant de postuler à l'offre d'emploi</h1><hr>
+    <form action="Emploi.php" method="POST"><center>
     <?php
     foreach ($data as $line){
-        echo "<h4>".$line['libelleQ']."<br></h4>";
+        echo "<h3>".$line['qestion']."<br></h3>";
         $id=$line["idq"];
-$req1 = "select * from reponses where idq= $id;";
-$res1= $dbh -> query($req1);
-$data1 = $res1 ->fetchAll(PDO::FETCH_ASSOC);
+        $req = "select * from questions where niveau=0 order by rand() limit  10;";
+        $res= $dbh -> query($req);
+        $data = $res ->fetchAll(PDO::FETCH_ASSOC);
+        $req1 = "select * from reponses where idq= $id;";
+        $res1= $dbh -> query($req1);
+        $data1 = $res1 ->fetchAll(PDO::FETCH_ASSOC);
     foreach ($data1 as $line1){
         $idr = $line1["idr"];
         $idq = $line1["idq"];
-        $idv = $line1["verite"];
         echo "<div class=\"row\">
-        <div class=\"col-lg-6\">
+  
           <div class=\"input-group\">
-              <input type=\"radio\" name=$idq>".$line1['libeller']."</div>
+              <h4><input type=\"radio\" name=$idq>".$line1['libeller']."</h4></div>
         </div>
       </div><br>";
     }
        
     }
     ?>
-    
+    <input type="submit" value="Valider">
 </form>
     
 
