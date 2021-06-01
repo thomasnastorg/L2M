@@ -71,7 +71,7 @@
                     <a href="./M2L.php">
                         <i class="fa fa-trophy fa-2x" style="color: #d52349; font-size: 20px;"></i>
                         <span class="nav-text">
-                            L2M
+                            M2L
                         </span>
                     </a>
                     
