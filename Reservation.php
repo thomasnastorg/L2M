@@ -120,7 +120,7 @@ if (isset ($_POST["connexion"])){
                                   <ul class="row pagination pagination-lg">
                                       <li class="page-item">
                                         <a class="page-link" onclick="appli()" style="cursor: pointer;">
-                                      Réservation des salles
+                                      hentais
                                           </a>
                                           
                                       </li>
