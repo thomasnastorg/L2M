@@ -53,13 +53,12 @@ if (isset ($_POST["connexion"])){
 
 <!DOCTYPE html>
 <html lang="fr">
-<header>
+<head>
 <!--  -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf8">
 	<link rel="icon" type="image/png" href="Mettrelogo.png"/>
 	<title>L2M : Réservation</title>
   <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="calend.css" />
 	<meta name="description" content="Site de la L2M.">
 	
 	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
@@ -82,7 +81,7 @@ if (isset ($_POST["connexion"])){
 	</script>
 
 		
-</header>
+</head>
 <body>
 
 
@@ -121,7 +120,7 @@ if (isset ($_POST["connexion"])){
                                   <ul class="row pagination pagination-lg">
                                       <li class="page-item">
                                         <a class="page-link" onclick="appli()" style="cursor: pointer;">
-                                        Réservation des salles
+                                      hentais
                                           </a>
                                           
                                       </li>
@@ -180,174 +179,6 @@ if (isset ($_POST["connexion"])){
                       </form>
 
               </div>
-
-              <div sid="CALENDRIER">
-
-              <script>
-  // fill the month table with column headings
-function day_title(day_name) {
-    document.write("<div class='c-cal__col'>" + day_name + "</div>");
-  }
-  // fills the month table with numbers
-function fill_table(month, month_length, indexMonth) {
-    day = 1;
-    // begin the new month table
-    document.write("<div class='c-main c-main-" + indexMonth + "'>");
-    //document.write("<b>"+month+" "+year+"</b>")
-
-    // column headings
-    document.write("<div class='c-cal__row'>");
-    day_title("Sun");
-    day_title("Mon");
-    day_title("Tue");
-    day_title("Wed");
-    day_title("Thu");
-    day_title("Fri");
-    day_title("Sat");
-    document.write("</div>");
-
-    // pad cells before first day of month
-    document.write("<div class='c-cal__row'>");
-    for (var i = 1; i < start_day; i++) {
-      if (start_day > 7) {
-      } else {
-        document.write("<div class='c-cal__cel'></div>");
-      }
-    }
-
-    // fill the first week of days
-    for (var i = start_day; i < 8; i++) {
-      document.write(
-        "<div data-day='2017-" +
-          indexMonth +
-          "-0" +
-          day +
-          "'class='c-cal__cel'><p>" +
-          day +
-          "</p></div>"
-      );
-      day++;
-    }
-    document.write("</div>");
-
-    // fill the remaining weeks
-    while (day <= month_length) {
-      document.write("<div class='c-cal__row'>");
-      for (var i = 1; i <= 7 && day <= month_length; i++) {
-        if (day >= 1 && day <= 9) {
-          document.write(
-            "<div data-day='2017-" +
-              indexMonth +
-              "-0" +
-              day +
-              "'class='c-cal__cel'><p>" +
-              day +
-              "</p></div>"
-          );
-          day++;
-        } else {
-          document.write(
-            "<div data-day='2017-" +
-              indexMonth +
-              "-" +
-              day +
-              "' class='c-cal__cel'><p>" +
-              day +
-              "</p></div>"
-          );
-          day++;
-        }
-      }
-      document.write("</div>");
-      // the first day of the next month
-      start_day = i;
-    }
-
-    document.write("</div>");
-  }
-</script>
-<div id="head">
-  <div class="c-wrapper">
-    <div class="c-monthyear">
-    <div class="c-month">
-        <span id="prev" class="prev fa fa-angle-left" aria-hidden="true"></span>
-        <div id="c-paginator">
-          <span class="c-paginator__month"><h3>Janvier</h3></span>
-          <span class="c-paginator__month"><h3>Février</h3></span>
-          <span class="c-paginator__month"><h3>Mars</h3></span>
-          <span class="c-paginator__month"><h3>Avril</h3></span>
-          <span class="c-paginator__month"><h3>Mai</h3></span>
-          <span class="c-paginator__month"><h3>Juin</h3></span>
-          <span class="c-paginator__month"><h3>Juillet</h3></span>
-          <span class="c-paginator__month"><h3>Aout</h3></span>
-          <span class="c-paginator__month"><h3>Septembre</h3></span>
-          <span class="c-paginator__month"><h3>Octobre</h3></span>
-          <span class="c-paginator__month"><h3>Novembre</h3></span>
-          <span class="c-paginator__month"><h3>Décembre</h3></span>
-        </div>
-        <span id="next" class="next fa fa-angle-right" aria-hidden="true"></span>
-      </div>
-      <span class="c-paginator__year">2022</span>
-      <div class="c-sort">
-      <a class="o-btn c-today__btn" href="javascript:;">Aujourd'hui</a>
-    </div>
-    </div>
-  </div>
-</div>
-<div class="c-wrapper">
-  <div class="c-calendar">
-    <div class="c-calendar__style c-aside">
-      <a class="c-add o-btn js-event__add" href="javascript:;"><h4>Réserver <span class="fa fa-plus"></span></h4></a>
-      <div class="c-aside__day">
-        <span class="c-aside__num"></span> <span class="c-aside__month"></span>
-      </div>
-      <div class="c-aside__eventList">
-      </div>
-    </div>
-    <div class="c-cal__container c-calendar__style">
-      <script>
-      
-      // CAHNGE the below variable to the CURRENT YEAR
-      year = 2022;
-
-      // first day of the week of the new year
-      today = new Date("January 1, " + year);
-      start_day = today.getDay() + 1;
-      fill_table("January", 31, "01");
-      fill_table("February", 28, "02");
-      fill_table("March", 31, "03");
-      fill_table("April", 30, "04");
-      fill_table("May", 31, "05");
-      fill_table("June", 30, "06");
-      fill_table("July", 31, "07");
-      fill_table("August", 31, "08");
-      fill_table("September", 30, "09");
-      fill_table("October", 31, "10");
-      fill_table("November", 30, "11");
-      fill_table("December", 31, "12");
-      </script>
-    </div>
-  </div>
-
-  <div class="c-event__creator c-calendar__style js-event__creator">
-    <a href="javascript:;" class="o-btn js-event__close"><h4>Fermer <span class="fa fa-angle-down"></h4></span></a>
-    <form id="addEvent">
-      <input class="c-input" placeholder="Votre nom" type="text" name="name">
-      <input class="c-input" type="date" name="date">
-      <textarea class="c-textarea" placeholder="Notes" name="notes" cols="30" rows="10"></textarea>
-      <select class="c-select" name="tags">
-          <option value="foot">Terrain de foot</option>
-          <option value="basket">Terrain de basket</option>
-          <option value="badminton">Terrain de badminton</option>
-          <option value="pingpong">Terrain de ping pong</option>
-        </select>
-    </form>
-    <br>
-    <a href="javascript:;" class="o-btn js-event__save"><h4>Enregistrer <span class="fa fa-save"></span></h4></a>
-  </div>
-</div>
-
-              </div>
     </div>
 
 </center>
@@ -377,9 +208,6 @@ function fill_table(month, month_length, indexMonth) {
       </div>
   </section>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.core.min.js" ></script>
-      <script src="calend.js"></script>
       <script type="text/javascript">
         document.getElementById("info_reservation").style.display = "block";
         document.getElementById("pagin_resA").style.display = "block";
